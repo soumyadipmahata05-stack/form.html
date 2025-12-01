@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="width:200px;" height="500px" >
+    <form >
+    <fieldset> <center><legend>My Form</legend></center><br><br>
+        Name:<input type="text"><br><br>
+        Mobile no:<input type="text"><br><br>
+        Password:<input type="password"><br><br>
+        DOB:<input type="date"><br><br>
+        email:<input type="mail"><br><br>
+        gender:<input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">other<br><br>
+        languages u know:
+        English<input type="checkbox">
+        Bengali<input type="checkbox">
+        Hindi<input type="checkbox">
+        Malayalam<input type="checkbox">
+        Punjabi<input type="checkbox"><br><br>
+        Address:<br>
+        <textarea></textarea><br><br>
+        select ur states:
+        <select>
+            <option value="null">select state</option>
+            <option value="1">West Bengal</option>
+            <option value="2">Bihar</option>
+            <option value="3">Jharkhand</option>
+            <option value="4">Uttar Pradesh</option>
+            <option value="4">Andhrapradesh</option>
+            <option value="6">Kerala</option>
+            <option value="7">Tamilnadu</option>
+            <option value="8">Punjab</option>
+              
+        </select>
+        upload file:<input type="file"><br><br>
+              <input type="button" value="submit">
+              <input type="button" value="reset">
+    </fieldset> 
+        
+    </form>
+</body>
+</html>
